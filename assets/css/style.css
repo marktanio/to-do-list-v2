@@ -32,8 +32,54 @@
     min-height: 600px;
 }
 
-h1{
+h1 {
     color: #fff;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
+}
+
+#input-box {
+    background: rgba(255,255,255,0.5);
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    max-width: 750px;
+    width: 100%;
+    border-radius: 20px;
+    min-height: 50px;
+    margin-inline: 5px;
+  }
+
+  .input-area {
+    display: flex;
+    max-width: inherit;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    min-height: 50px;
+  }
+
+  .line {
+    max-width:920px;
+    height: 3px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 2px;
+    width: 100%;
+  }
+
+  ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
 }
