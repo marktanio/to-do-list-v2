@@ -119,10 +119,10 @@ ul li.checked::before {
   background-image: url(../images/checked.png);
 }
 
-ul li span{
+ul li span {
   position:absolute;
-  right: 0;
-  top: 5px;
+  right: 10px;
+  top: 10px;
   width: 40px;
   height: 40px;
   font-size: 22px;

@@ -41,4 +41,12 @@ function showTask(){
 }
 showTask();
 
+document.addEventListener("DOMContentLoaded", function() {
+    gsap.from(".todo-list", {
+        opacity: 0, // Start with 0 opacity
+        duration: 2, // Animate over 2 seconds
+        ease: "power2.inOut" // Use a smooth ease-in-out effect
+    });
+});
+
 
